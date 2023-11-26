@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bowlby+One+SC&family=Edu+SA+Beginner:wght@500&family=Lilita+One&family=Montserrat&family=Poppins:wght@300;700&family=REM&family=Rancho&family=Rock+Salt&family=Rowdies&family=Ysabeau+SC&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgb(14, 14, 14);
+    min-height:900px;
+}
+
+html{
+    font-family: 'Montserrat' , sans-serif;
+    font-size: 10px;
+}
+
+.head2 {
+    top: 0;
+    position: fixed;
+    z-index: 1;
+    text-align: center;
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    box-shadow: 5px 5px 20px black;
+}
+
+.head2 h1{
+    color: white;
+    font-weight: 950;
+    font-size: 20px;
+}
+.head2 h2{
+    color: crimson;
+    font-weight: 950;
+    font-size: 20px;
+}
+
+.gal {
+    margin-top: 90px;
+}
+
+.gal h1 {
+    text-align: center;
+    color: white;
+    font-weight: 300;
+}
+
+.gal h1 span {
+    color: crimson;
+}
+
+.gal p {
+    color: white;
+    text-align: center;
+}
+
+.gal-item img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 270px;
+    padding: 5px;
+    box-shadow: 0 0 15px black;
+}
+
+.gal .UP{
+    padding: 20px;
+}
+
+.gal .UP2 h2 a{
+    text-decoration: none;
+    color : crimson;
+    font-size: 8px;
+ 
+}
+
+.UP2 h2 {
+    text-align: center;
+}
+
+.foot2 .f {
+    margin-top: 40px;
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    box-shadow: 0 0 20px black;
+}
+
+
+.f h1 {
+    font-size: 7px;
+    text-align: center;
+    color: white;
+}
+
+.f img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.f p {
+    color: white;
+    font-size: 8px;
+    text-align: center;
+    margin-top: 2px;
+    font-weight: 550;
+}
